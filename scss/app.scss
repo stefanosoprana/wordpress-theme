@@ -1,0 +1,17 @@
+/*
+Theme Name: Boolean theme
+Theme URI: https://google.it
+Author: Stefano Soprana
+Author URI: https://wordpress.org/
+Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Requires at least: WordPress 4.9.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: twentynineteen
+Tags: dev, html, css, php.
+*/
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "partials/header.scss";
