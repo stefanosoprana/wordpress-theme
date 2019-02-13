@@ -10709,3 +10709,24 @@ header .container .header-right ul li a {
   color: grey;
 }
 
+.post {
+  margin-top: 30px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.post h2 small {
+  font-size: 15px;
+  margin-left: 10px;
+  color: grey;
+}
+
+.post h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.my_sidebar li {
+  list-style: none;
+  margin: 15px;
+}
+

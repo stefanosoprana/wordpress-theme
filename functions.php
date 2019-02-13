@@ -22,4 +22,17 @@
     add_action('after_setup_theme', 'boolean_setup');
   }
 
+  if (!function_exists('widgets_sidebar'))
+  {
+    function widgets_sidebar()
+    {
+      register_sidebar(array(
+        'name'          => 'myTheme-sidebar',
+      	'id'            => 'myTheme-sidebar',
+      ));
+    }
+
+    add_action('widgets_init', 'widgets_sidebar');
+  }
+
  ?>
